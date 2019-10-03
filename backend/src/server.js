@@ -7,7 +7,7 @@ const routes = require('./routes')
 
 const app = express()
 
-mongoose.connect('url', {
+mongoose.connect('link', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
